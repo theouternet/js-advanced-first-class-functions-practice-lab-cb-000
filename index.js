@@ -26,3 +26,14 @@ return one.name.localeCompare(two.name)
   })
 }
 
+const totalRevenue = function(drivers) {
+  drivers.forEach(function(driver) {
+    console.log(driver.name);
+  });
+}
+
+const averageRevenue = function(drivers) {
+  drivers.forEach(function(driver) {
+    console.log(driver.name);
+  });
+}
