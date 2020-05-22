@@ -27,7 +27,7 @@ return one.name.localeCompare(two.name)
 }
 
 const totalRevenue = function(drivers) {
-  drivers.forEach(function(driver) {
+  total = drivers.forEach(function(driver) {
     console.log(driver.name);
   });
 }
