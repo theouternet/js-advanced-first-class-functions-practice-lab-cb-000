@@ -32,7 +32,6 @@ const totalRevenue = function(drivers) {
   }, 0)
 }
 
- array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
 const averageRevenue = function(drivers) {
  return totalRevenue(drivers) / drivers.length
