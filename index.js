@@ -27,9 +27,9 @@ return one.name.localeCompare(two.name)
 }
 
 const totalRevenue = function(drivers) {
-  total = drivers.forEach(function(driver) {
-    console.log(driver.name);
-  });
+  return drivers.reduce(function(total, currentDriver) {
+    return currentDriver.revenue + total
+  }, 0)
 }
 
  array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
