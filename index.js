@@ -35,7 +35,5 @@ const totalRevenue = function(drivers) {
  array.reduce(function(total, currentValue, currentIndex, arr), initialValue)
 
 const averageRevenue = function(drivers) {
-  drivers.forEach(function(driver) {
-    console.log(driver.name);
-  });
+ return totalRevenue(drivers) / drivers.length
 }
