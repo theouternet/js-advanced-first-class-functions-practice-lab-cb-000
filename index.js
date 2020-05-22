@@ -14,3 +14,8 @@ const logDriversByHometown = function(drivers, hometown) {
   });
 }
 
+const driversByRevenue = function(drivers) {
+  drivers.forEach(function(driver) {
+    console.log(driver.name);
+  });
+}
