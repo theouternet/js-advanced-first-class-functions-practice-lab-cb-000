@@ -13,3 +13,4 @@ const logDriversByHometown = function(drivers, hometown) {
     }
   });
 }
+
